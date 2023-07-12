@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "inter";
+}
+
+.contact{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 100px 0;
+    transition: 1s;
+}
+
+.d-flex{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text{
+    font-size: 22px;
+}
+
+.image{
+    height: 60px;
+    width: 60px;
+}
+
+.div{
+    margin-top: 20px;
+}
+
+.main-p{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.yasin{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main-1{
+    box-shadow: 0px 0px 5px 0px;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.7s;
+    padding: 35px;
+}
+
+.main-1:hover{
+    background-color: blueviolet;
+    color: #fff;
+    transition: 0.7s;
+}
+
+@media screen and (max-width:450px) {
+    .main-1{
+        padding: 20px;
+    }
+
+    .d-flex{
+        display: grid;
+        grid-row-gap: 50px;
+    }
+
+    .d-flex{
+        padding: 20px;
+    }
+
+    .main-p{
+        font-size: 10px;
+    }
+
+    .text{
+        font-size: 17px;
+    }
+}
